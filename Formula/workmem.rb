@@ -1,28 +1,28 @@
 class Workmem < Formula
   desc "Local-first memory MCP server: SQLite-backed knowledge graph for AI"
   homepage "https://github.com/marlian/workmem"
-  version "0.4.0"
+  version "0.4.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/marlian/workmem/releases/download/v0.4.0/workmem-darwin-arm64-v0.4.0.tar.gz"
-      sha256 "9bbf18f7f78aa72835246eb12daa6b7e63bef7e47bd345a0fd328236e3371932"
+      url "https://github.com/marlian/workmem/releases/download/v0.4.1/workmem-darwin-arm64-v0.4.1.tar.gz"
+      sha256 "cafc1c82fe02ed05f12834d893642b7efcfe42e0bdc15504bfbc714d4f3007e7"
     end
     on_intel do
-      url "https://github.com/marlian/workmem/releases/download/v0.4.0/workmem-darwin-amd64-v0.4.0.tar.gz"
-      sha256 "ad16e3af92e2fcb28c9dea28679c578fe02ccca1bca9863f829a933572ff5dec"
+      url "https://github.com/marlian/workmem/releases/download/v0.4.1/workmem-darwin-amd64-v0.4.1.tar.gz"
+      sha256 "1324cbe0a8fdb1e91a50a7414be4adbe9675f3ec07c9b8b14c34c90ec603eecc"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/marlian/workmem/releases/download/v0.4.0/workmem-linux-arm64-v0.4.0.tar.gz"
-      sha256 "87079fee3d994e765b03d14acb352c16497daeabb3373fb8c5acd437c81d74bd"
+      url "https://github.com/marlian/workmem/releases/download/v0.4.1/workmem-linux-arm64-v0.4.1.tar.gz"
+      sha256 "31640f91bd6eb9e92d04d08462e50a8b9f3e964641ac010416712bc187964c86"
     end
     on_intel do
-      url "https://github.com/marlian/workmem/releases/download/v0.4.0/workmem-linux-amd64-v0.4.0.tar.gz"
-      sha256 "b2fcf2f34c3f2df9749ed6be5c53945e6f5ab9bb5009278ca78fe1dffa269b51"
+      url "https://github.com/marlian/workmem/releases/download/v0.4.1/workmem-linux-amd64-v0.4.1.tar.gz"
+      sha256 "beb3246cdaf8376e707b50ae18e48005d510ccf25845e07e2dbbdd890dc16e0c"
     end
   end
 
